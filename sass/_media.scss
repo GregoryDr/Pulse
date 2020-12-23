@@ -1,0 +1,30 @@
+@media (max-width: 1200px) {
+};
+
+@media (max-width: 991px) {
+    .header {
+        padding: 0 20px;
+    }
+    .promo {
+        &__wrapper {
+            margin: 90px 20px;
+        }
+    }
+    .advantages {
+        &__items {
+            padding: 0 20px;
+        }
+        &__item {
+            a {
+                font-size: 13px;
+            }
+        }
+        &__descr {
+            padding: 0 6px;
+        }
+    }
+}
+@media (max-width: 767px) {
+}
+
+
